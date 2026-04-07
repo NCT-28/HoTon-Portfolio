@@ -54,8 +54,7 @@ docker buildx use "${BUILDER}"
 # ── Build & Push (multi-platform, pushes directly to registry) ───────────────
 echo ""
 echo ">>> Building and pushing ${FULL_IMAGE}:${VERSION} (${PLATFORMS}) ..."
-docker buildx build --no-cache \
-  --platform "${PLATFORMS}" \
+docker buildx build --no-cache \  --no-cache \  --platform "${PLATFORMS}" \
   -f "${SCRIPT_DIR}/Dockerfile" \
   -t "${FULL_IMAGE}:${VERSION}" \
   -t "${FULL_IMAGE}:latest" \
