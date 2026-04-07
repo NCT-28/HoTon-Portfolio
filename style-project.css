@@ -7,37 +7,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 16px;
+    align-items: start;
 }
 
 
-/* Default: landscape photos (3:2 ratio) */
+/* Default: show full image at natural aspect ratio */
 
 .photo-grid img {
     width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    object-position: center top;
+    height: auto;
+    display: block;
     border-radius: 4px;
     box-shadow: 0 3px 10px rgb(127 110 187 / 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: block;
 }
 
-
-/* Wide screenshots (16:5) — for TikTok/Facebook dashboard captures */
-
-.photo-grid img.screenshot-wide {
-    aspect-ratio: 16 / 5;
-    object-position: center center;
-}
-
-
-/* Tall screenshots (4:5) — for portrait screenshots */
-
-.photo-grid img.screenshot-tall {
-    aspect-ratio: 4 / 5;
-    object-position: center top;
-}
 
 .photo-grid img:hover {
     transform: scale(1.03);
