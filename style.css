@@ -1,7 +1,7 @@
 /* BODY */
 html{
     font-size: 100%;
-    line-height: 1.2rem;
+    line-height: 1.6;
     /* text-size adjust is to maintain the text-size even when the users rotates their phone to landscape view */
     -webkit-text-size-adjust: 100%;
     /* Firefox supports only the android version and safari supports only the ios version at the moment according to MDN (2023)*/
@@ -11,7 +11,7 @@ html{
 
 body {
     background-color: rgba(253, 244, 244, 30%);
-    font-family: 'Be Vietnam Pro', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
     margin: 0px;
 }
 /*-------------------------------------------*/
@@ -21,9 +21,9 @@ body {
 .large{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Be Vietnam Pro', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
     font-size: 5rem;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0px;  
@@ -37,18 +37,18 @@ body {
 .medium-spacing{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Be Vietnam Pro', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
     font-size: 4rem;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     margin: 0px;
 }
 
 .medium-spacing-halfsize{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Be Vietnam Pro', Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
     font-size: 2rem;
-    letter-spacing: 4px;
+    letter-spacing: 0.5px;
     margin: 0px;
 }
 
