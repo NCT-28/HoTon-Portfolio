@@ -1,4 +1,5 @@
 /* PHOTO GALLERY */
+
 .photo-grid {
     max-width: 900px;
     margin: auto;
@@ -22,19 +23,28 @@
     transform: scale(1.03);
     box-shadow: 5px 5px 5px #cdadcd;
 }
+
+
 /* ---------------------------------- */
 
+
 /* OVERWRITE AND NEW SETTINGS */
-.column{
-    -webkit-transition: background-color 3s; /* For Safari 3.0 to 6.0 */
-    transition: background-color 3s; /* For modern browsers */
+
+.column {
+    -webkit-transition: background-color 3s;
+    /* For Safari 3.0 to 6.0 */
+    transition: background-color 3s;
+    /* For modern browsers */
 }
 
-.column:hover, .column:active{
+.column:hover,
+.column:active {
     background-color: rgba(243, 162, 200, 0.3);
 }
 
+
 /* DARK THEME */
+
 @media (prefers-color-scheme: dark) {
     @media screen and (max-width: 929px) {
         .baby-pink-light {
