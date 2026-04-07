@@ -9,7 +9,9 @@
     gap: 16px;
 }
 
+
 /* Default: landscape photos (3:2 ratio) */
+
 .photo-grid img {
     width: 100%;
     aspect-ratio: 3 / 2;
@@ -21,13 +23,17 @@
     display: block;
 }
 
+
 /* Wide screenshots (16:5) — for TikTok/Facebook dashboard captures */
+
 .photo-grid img.screenshot-wide {
     aspect-ratio: 16 / 5;
     object-position: center center;
 }
 
+
 /* Tall screenshots (4:5) — for portrait screenshots */
+
 .photo-grid img.screenshot-tall {
     aspect-ratio: 4 / 5;
     object-position: center top;
