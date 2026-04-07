@@ -11,7 +11,7 @@ html{
 
 body {
     background-color: rgba(253, 244, 244, 30%);
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Be Vietnam Pro', Arial, sans-serif;
     margin: 0px;
 }
 /*-------------------------------------------*/
@@ -21,7 +21,7 @@ body {
 .large{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'Be Vietnam Pro', Arial, sans-serif;
     font-size: 5rem;
     letter-spacing: 4px;
     font-weight: bold;
@@ -37,7 +37,7 @@ body {
 .medium-spacing{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'Be Vietnam Pro', Arial, sans-serif;
     font-size: 4rem;
     letter-spacing: 4px;
     margin: 0px;
@@ -46,7 +46,7 @@ body {
 .medium-spacing-halfsize{
     font-weight: normal;
     line-height: normal;
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'Be Vietnam Pro', Arial, sans-serif;
     font-size: 2rem;
     letter-spacing: 4px;
     margin: 0px;
@@ -70,7 +70,7 @@ body {
 }
 
 .quote{
-    font-family: 'Covered By Your Grace', cursive, sans-serif;
+    font-family: 'Dancing Script', cursive, sans-serif;
     font-size: 1.5em;
 }
 

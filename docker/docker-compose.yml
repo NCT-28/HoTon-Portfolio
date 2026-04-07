@@ -1,7 +1,6 @@
 services:
   web:
-    build: .
+    image: toannc7/hoton-portfolio:latest
     ports:
-      - "8080:80"
-    volumes:
-      - .:/usr/share/nginx/html:ro
+      - "28118:80"
+    restart: unless-stopped
