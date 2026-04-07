@@ -26,10 +26,10 @@
 **Plans:** 5 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — index.html: hero, about preview, skills preview, contact (COVER-01,02,03)
-- [ ] 01-02-PLAN.md — about-me.html: bio, work experience, industry experience (ABOUT-01,02)
-- [ ] 01-03-PLAN.md — skill-set.html: marketing skills, industry sectors (SKILLS-01,02)
-- [ ] 01-04-PLAN.md — portfolio.html + project1.html: achievements overview + campaign detail (PORTF-01,02)
-- [ ] 01-05-PLAN.md — project2.html + project3.html: multi-channel + event comms (PORTF-03,04)
+- [x] 01-01-PLAN.md — index.html: hero, about preview, skills preview, contact (COVER-01,02,03)
+- [x] 01-02-PLAN.md — about-me.html: bio, work experience, industry experience (ABOUT-01,02)
+- [x] 01-03-PLAN.md — skill-set.html: marketing skills, industry sectors (SKILLS-01,02)
+- [x] 01-04-PLAN.md — portfolio.html + project1.html: achievements overview + campaign detail (PORTF-01,02)
+- [x] 01-05-PLAN.md — project2.html + project3.html: multi-channel + event comms (PORTF-03,04)
 
-**Status:** Planned
+**Status:** Executed — Verification pending
