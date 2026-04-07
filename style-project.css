@@ -1,3 +1,29 @@
+/* PHOTO GALLERY */
+.photo-grid {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgb(127 110 187 / 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px #cdadcd;
+}
+/* ---------------------------------- */
+
 /* OVERWRITE AND NEW SETTINGS */
 .column{
     -webkit-transition: background-color 3s; /* For Safari 3.0 to 6.0 */
