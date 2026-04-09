@@ -405,7 +405,7 @@ footer {
 /* INTRODUCTION */
 
 .header-img {
-    border-radius: 70%;
+    border-radius: 15%;
 }
 
 
@@ -570,6 +570,46 @@ footer {
 
 
 /* PROJECTS */
+
+
+/* Skill icon cards (index.html skills section) */
+
+.skill-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+.skill-card {
+    background-color: #fff;
+    border: 1.5px solid rgba(220, 80, 150, 0.2);
+    border-radius: 12px;
+    padding: 28px 20px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 2px 8px rgba(220, 80, 150, 0.08);
+}
+
+.skill-icon-box {
+    background-color: rgba(253, 129, 187, 0.15);
+    border-radius: 14px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-card-title {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
 
 
 /* I also used these card settings on other sub-pages */

@@ -45,7 +45,7 @@
         <h3 class="main-title">Kinh nghiệm truyền thông sự kiện</h3>
         <section>
             <p class="justify">Có kinh nghiệm lên kế hoạch và triển khai truyền thông cho các sự kiện quy mô lớn, từ brand opening đến giải đấu esports cấp quốc gia.</p>
-            <p class="justify">Đảm nhiệm viết bài, xây dựng nội dung truyền thông trước-trong-sau sự kiện trên các kênh digital.</p>
+            <!-- <p class="justify">Đảm nhiệm viết bài, xây dựng nội dung truyền thông trước-trong-sau sự kiện trên các kênh digital.</p> -->
         </section>
     </section>
 
@@ -105,20 +105,28 @@
         <img id="lightbox-img" src="" alt="">
     </div>
     <script>
-        (function () {
+        (function() {
             var overlay = document.getElementById('lightbox-overlay');
             var lbImg = document.getElementById('lightbox-img');
-            document.querySelectorAll('.photo-grid img').forEach(function (img) {
-                img.addEventListener('click', function () {
+            document.querySelectorAll('.photo-grid img').forEach(function(img) {
+                img.addEventListener('click', function() {
                     lbImg.src = img.src;
                     lbImg.alt = img.alt;
                     overlay.classList.add('active');
                 });
             });
-            function close() { overlay.classList.remove('active'); lbImg.src = ''; }
+
+            function close() {
+                overlay.classList.remove('active');
+                lbImg.src = '';
+            }
             document.getElementById('lightbox-close').addEventListener('click', close);
-            overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
-            document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+            overlay.addEventListener('click', function(e) {
+                if (e.target === overlay) close();
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') close();
+            });
         })();
     </script>
 </body>
