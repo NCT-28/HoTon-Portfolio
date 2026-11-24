@@ -474,12 +474,12 @@ footer {
 }
 
 .comm-adapt {
-    width: 90%;
+    width: 60%;
     animation: comm-adapt 3s;
 }
 
 .team-player {
-    width: 85%;
+    width: 60%;
     animation: team-player 3s;
 }
 
@@ -534,7 +534,7 @@ footer {
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -543,7 +543,7 @@ footer {
         width: 0%;
     }
     100% {
-        width: 85%;
+        width: 60%;
     }
 }
 
