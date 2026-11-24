@@ -22,5 +22,5 @@ Executing — Phase 1 complete (all 5 plans executed, awaiting verification)
 
 - Portfolio owner: Nguyễn Thị Phúc Hòa
 - Title: Marketing Executive
-- Last update: 04/2026
+- Last update: 11/2026
 - Contact: 034 329 9933 | nguyenthiphuchoa9933@gmail.com

@@ -13,7 +13,7 @@ Updated `index.html` with real personal branding content for Nguyễn Thị Phú
 ## What Was Built
 
 - Meta tags: real description, keywords, author, title
-- Hero: "Welcome to my portfolio" + "Nguyễn Thị Phúc Hòa" + "Cập nhật: 04/2026"
+- Hero: "Welcome to my portfolio" + "Nguyễn Thị Phúc Hòa" + "Cập nhật: 11/2026"
 - Quote: "Marketing Executive — Công nghệ & Dịch vụ"
 - About preview: Marketing Executive bio (3+ years experience)
 - Achievement cards: Campaign ra mắt, Marketing đa kênh — linking to project pages
@@ -28,7 +28,7 @@ Updated `index.html` with real personal branding content for Nguyễn Thị Phú
 ## Verification
 
 All must_haves verified:
-- ✓ Hero shows "Welcome to my portfolio", "Nguyễn Thị Phúc Hòa", "Cập nhật: 04/2026"
+- ✓ Hero shows "Welcome to my portfolio", "Nguyễn Thị Phúc Hòa", "Cập nhật: 11/2026"
 - ✓ About preview shows Marketing Executive bio
 - ✓ Contact email is nguyenthiphuchoa9933@gmail.com with thank-you message
 - ✓ Skills preview shows marketing skills

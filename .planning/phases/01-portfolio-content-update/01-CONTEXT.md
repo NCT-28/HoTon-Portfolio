@@ -1,6 +1,6 @@
 # Phase 1: portfolio-content-update — Context
 
-**Gathered:** 04/2026
+**Gathered:** 11/2026
 **Status:** Ready for planning
 **Source:** User-provided content — all decisions locked
 
@@ -28,7 +28,7 @@ Files in scope:
 **Hero headline:**
 - "Welcome to my portfolio"
 - Name: "Nguyễn Thị Phúc Hòa"
-- Subtitle: "Cập nhật: 04/2026"
+- Subtitle: "Cập nhật: 11/2026"
 
 **Contact section (index.html #contact-me):**
 - Phone: 034 329 9933
@@ -165,4 +165,4 @@ Key source files for executors to read before editing:
 ---
 
 *Phase: 01-portfolio-content-update*
-*Context gathered: 04/2026 via user content input*
+*Context gathered: 11/2026 via user content input*
